@@ -1,0 +1,6 @@
+[
+    {"id": "id-1", "title": "Title-1", "text": "Each component has several “lifecycle methods” that you can override to run code at particular times in the process. You can use this lifecycle diagram as a cheat sheet. In the list below, commonly used lifecycle methods are marked as bold. The rest of them exist for relatively rare use cases."},
+    {"id": "id-1", "title": "Title-2", "text": "These methods are called in the following order when an instance of a component is being created and inserted into the DOM:"},
+    {"id": "id-1", "title": "Title-3", "text": "React elements. Typically created via JSX. For example, <div /> and <MyComponent /> are React elements that instruct React to render a DOM node, or another user-defined component, respectively."},
+    {"id": "id-1", "title": "Title-4", "text": "The render() function should be pure, meaning that it does not modify component state, it returns the same result each time it’s invoked, and it does not directly interact with the browser."}
+]
